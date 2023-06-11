@@ -458,7 +458,7 @@ class ProfitLossTableModel(BaseTableModel):
         """Callback when the profit for a team changes."""
         row = self.__teams[team]
         self.__profits[row][1:] = (etf_position, profit - account_balance, account_balance + total_fees,
-                                   -total_fees, profit)
+                                   -total_fees, account_balance)
         self.dataChanged.emit(self.createIndex(row, 1), self.createIndex(row, len(self._COLUMN_NAMES) - 1))
 
 

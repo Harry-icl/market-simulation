@@ -43,6 +43,12 @@ class Lifespan(enum.IntEnum):
     G = GOOD_FOR_DAY
 
 
+class Action(enum.IntEnum):
+    AA = 0
+    AB = 1
+    N = 2
+
+
 class ICompetitor(object):
     def disconnect(self, now: float) -> None:
         """Disconnect this competitor."""

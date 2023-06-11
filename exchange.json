@@ -12,8 +12,8 @@
     "Port": 12345
   },
   "Fees": {
-    "Maker": -0.0001,
-    "Taker": 0.0002
+    "Maker": -0.02,
+    "Taker": 0.04
   },
   "Hud": {
     "Host": "127.0.0.1",
@@ -35,7 +35,8 @@
     "PositionLimit": 1000
   },
   "Traders": {
-    "Example": "secret",
-    "trader2": "secret"
+    "Autotrader 1": "secret",
+    "Autotrader 2": "secret",
+    "Autotrader 3": "secret"
   }
 }

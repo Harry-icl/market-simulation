@@ -7686,3 +7686,1387 @@ task: <Task pending name='Task-2' coro=<Subscriber._subscribe_worker() done, def
 2023-03-23 16:47:49,636 [INFO   ] [APP] closing event loop
 2023-03-23 16:47:49,667 [ERROR  ] [asyncio] Task was destroyed but it is pending!
 task: <Task pending name='Task-2' coro=<Subscriber._subscribe_worker() done, defined at /Users/harry/rtg-2022/ready_trader_go/pubsub.py:122> cb=[MmapSubscriber.__init__.<locals>.<lambda>() at /Users/harry/rtg-2022/ready_trader_go/pubsub.py:171]>
+2023-06-08 13:41:25,426 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py}
+2023-06-08 13:41:25,436 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 13:41:25,440 [INFO   ] [CONNECTION] fd=584 connection established: peer=127.0.0.1:12345
+2023-06-08 13:41:29,639 [INFO   ] [APP] closing event loop
+2023-06-08 13:41:29,751 [ERROR  ] [asyncio] Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Subscriber._subscribe_worker() done, defined at D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py:122> cb=[MmapSubscriber.__init__.<locals>.<lambda>() at D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py:171]>
+2023-06-08 13:51:36,812 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py}
+2023-06-08 13:51:36,812 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 13:51:36,844 [INFO   ] [CONNECTION] fd=864 connection established: peer=127.0.0.1:12345
+2023-06-08 13:51:41,458 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-08 13:51:41,458 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1
+2023-06-08 13:51:41,740 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 2
+2023-06-08 13:51:41,741 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2
+2023-06-08 13:51:41,741 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-06-08 13:51:41,976 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 3
+2023-06-08 13:51:41,976 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3
+2023-06-08 13:51:42,226 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 4
+2023-06-08 13:51:42,226 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4
+2023-06-08 13:51:42,491 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 5
+2023-06-08 13:51:42,491 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5
+2023-06-08 13:51:42,491 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-06-08 13:51:42,722 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 6
+2023-06-08 13:51:42,722 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6
+2023-06-08 13:51:43,000 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 7
+2023-06-08 13:51:43,000 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7
+2023-06-08 13:51:43,000 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-06-08 13:51:43,231 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 8
+2023-06-08 13:51:43,231 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8
+2023-06-08 13:51:43,499 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 9
+2023-06-08 13:51:43,499 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9
+2023-06-08 13:51:43,499 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-06-08 13:51:43,728 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 10
+2023-06-08 13:51:43,728 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10
+2023-06-08 13:51:43,728 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-06-08 13:51:43,988 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 11
+2023-06-08 13:51:43,988 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11
+2023-06-08 13:51:44,237 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 12
+2023-06-08 13:51:44,238 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12
+2023-06-08 13:51:44,238 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-06-08 13:51:44,506 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 13
+2023-06-08 13:51:44,506 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13
+2023-06-08 13:51:44,506 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-06-08 13:51:44,506 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-06-08 13:51:44,732 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 14
+2023-06-08 13:51:44,732 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14
+2023-06-08 13:51:44,732 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-06-08 13:51:44,988 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 15
+2023-06-08 13:51:44,988 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15
+2023-06-08 13:51:45,237 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 16
+2023-06-08 13:51:45,237 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16
+2023-06-08 13:51:45,237 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-06-08 13:51:45,492 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 17
+2023-06-08 13:51:45,492 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17
+2023-06-08 13:51:45,492 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-06-08 13:51:45,492 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-06-08 13:51:45,723 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 18
+2023-06-08 13:51:45,723 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18
+2023-06-08 13:51:45,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-06-08 13:51:45,723 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-06-08 13:51:45,723 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-06-08 13:51:45,724 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-06-08 13:51:45,974 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 19
+2023-06-08 13:51:45,975 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19
+2023-06-08 13:51:45,975 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-06-08 13:51:46,224 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 20
+2023-06-08 13:51:46,224 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20
+2023-06-08 13:51:46,224 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-06-08 13:51:46,488 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 21
+2023-06-08 13:51:46,489 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21
+2023-06-08 13:51:46,489 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-06-08 13:51:46,718 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 22
+2023-06-08 13:51:46,718 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22
+2023-06-08 13:51:46,718 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-06-08 13:51:46,718 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-06-08 13:51:46,718 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-06-08 13:51:46,992 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 23
+2023-06-08 13:51:46,992 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23
+2023-06-08 13:51:46,992 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-06-08 13:51:46,993 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-06-08 13:51:47,231 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 24
+2023-06-08 13:51:47,231 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24
+2023-06-08 13:51:47,231 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-06-08 13:51:47,492 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 25
+2023-06-08 13:51:47,493 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25
+2023-06-08 13:51:47,728 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 26
+2023-06-08 13:51:47,728 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26
+2023-06-08 13:51:47,728 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-06-08 13:51:47,978 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 27
+2023-06-08 13:51:47,978 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27
+2023-06-08 13:51:47,978 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-06-08 13:51:48,229 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 28
+2023-06-08 13:51:48,229 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28
+2023-06-08 13:51:48,481 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 29
+2023-06-08 13:51:48,481 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29
+2023-06-08 13:51:48,481 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-06-08 13:51:48,742 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 30
+2023-06-08 13:51:48,742 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30
+2023-06-08 13:51:48,743 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-06-08 13:51:48,981 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 31
+2023-06-08 13:51:48,981 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31
+2023-06-08 13:51:48,982 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-06-08 13:51:48,982 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-06-08 13:51:49,229 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 32
+2023-06-08 13:51:49,229 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32
+2023-06-08 13:51:49,229 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-06-08 13:51:49,476 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 33
+2023-06-08 13:51:49,476 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33
+2023-06-08 13:51:49,476 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-06-08 13:51:49,738 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 34
+2023-06-08 13:51:49,738 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34
+2023-06-08 13:51:49,738 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-06-08 13:51:49,987 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 35
+2023-06-08 13:51:49,987 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35
+2023-06-08 13:51:50,238 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 36
+2023-06-08 13:51:50,239 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36
+2023-06-08 13:51:50,495 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 37
+2023-06-08 13:51:50,495 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 37
+2023-06-08 13:51:50,731 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 38
+2023-06-08 13:51:50,731 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 38
+2023-06-08 13:51:50,731 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-06-08 13:51:50,987 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 39
+2023-06-08 13:51:50,988 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 39
+2023-06-08 13:51:50,988 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-06-08 13:51:51,250 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 40
+2023-06-08 13:51:51,250 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 40
+2023-06-08 13:51:51,474 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 41
+2023-06-08 13:51:51,474 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 41
+2023-06-08 13:51:51,474 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-06-08 13:51:51,712 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 42
+2023-06-08 13:51:51,712 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 42
+2023-06-08 13:51:51,986 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 43
+2023-06-08 13:51:51,986 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 43
+2023-06-08 13:51:51,986 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-06-08 13:51:52,239 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 44
+2023-06-08 13:51:52,239 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 44
+2023-06-08 13:51:52,471 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 45
+2023-06-08 13:51:52,471 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 45
+2023-06-08 13:51:52,729 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 46
+2023-06-08 13:51:52,729 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 46
+2023-06-08 13:51:52,983 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 47
+2023-06-08 13:51:52,983 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 47
+2023-06-08 13:51:52,983 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-06-08 13:51:53,233 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 48
+2023-06-08 13:51:53,233 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 48
+2023-06-08 13:51:53,487 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 49
+2023-06-08 13:51:53,487 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 49
+2023-06-08 13:51:53,742 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 50
+2023-06-08 13:51:53,742 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 50
+2023-06-08 13:51:53,979 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 51
+2023-06-08 13:51:53,979 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 51
+2023-06-08 13:51:54,234 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 52
+2023-06-08 13:51:54,234 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 52
+2023-06-08 13:51:54,235 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-06-08 13:51:54,489 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 53
+2023-06-08 13:51:54,490 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 53
+2023-06-08 13:51:54,490 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-06-08 13:51:54,490 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-06-08 13:51:54,490 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-06-08 13:51:54,718 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 54
+2023-06-08 13:51:54,718 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 54
+2023-06-08 13:51:54,718 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-06-08 13:51:54,970 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 55
+2023-06-08 13:51:54,970 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 55
+2023-06-08 13:51:55,230 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 56
+2023-06-08 13:51:55,230 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 56
+2023-06-08 13:51:55,484 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 57
+2023-06-08 13:51:55,484 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 57
+2023-06-08 13:51:55,484 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-06-08 13:51:55,734 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 58
+2023-06-08 13:51:55,734 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 58
+2023-06-08 13:51:55,987 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 59
+2023-06-08 13:51:55,988 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 59
+2023-06-08 13:51:56,238 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 60
+2023-06-08 13:51:56,238 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 60
+2023-06-08 13:51:56,479 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 61
+2023-06-08 13:51:56,479 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 61
+2023-06-08 13:51:56,479 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-06-08 13:51:56,480 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 28
+2023-06-08 13:51:56,731 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 62
+2023-06-08 13:51:56,731 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 62
+2023-06-08 13:51:56,731 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-06-08 13:51:56,731 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 29
+2023-06-08 13:51:56,984 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 63
+2023-06-08 13:51:56,984 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 63
+2023-06-08 13:51:56,984 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 30
+2023-06-08 13:51:56,985 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 31
+2023-06-08 13:51:57,236 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 64
+2023-06-08 13:51:57,236 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 64
+2023-06-08 13:51:57,237 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 32
+2023-06-08 13:51:57,498 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 65
+2023-06-08 13:51:57,498 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 65
+2023-06-08 13:51:57,498 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 23
+2023-06-08 13:51:57,499 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 33
+2023-06-08 13:51:57,729 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 66
+2023-06-08 13:51:57,729 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 66
+2023-06-08 13:51:57,730 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 34
+2023-06-08 13:51:57,996 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 67
+2023-06-08 13:51:57,996 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 67
+2023-06-08 13:51:57,996 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 24
+2023-06-08 13:51:58,217 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 68
+2023-06-08 13:51:58,217 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 68
+2023-06-08 13:51:58,471 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 69
+2023-06-08 13:51:58,472 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 69
+2023-06-08 13:51:58,729 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 70
+2023-06-08 13:51:58,729 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 70
+2023-06-08 13:51:58,980 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 71
+2023-06-08 13:51:58,980 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 71
+2023-06-08 13:51:59,231 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 72
+2023-06-08 13:51:59,231 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 72
+2023-06-08 13:51:59,231 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 25
+2023-06-08 13:51:59,476 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 73
+2023-06-08 13:51:59,476 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 73
+2023-06-08 13:51:59,476 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 35
+2023-06-08 13:51:59,729 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 74
+2023-06-08 13:51:59,729 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 74
+2023-06-08 13:51:59,729 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 26
+2023-06-08 13:51:59,982 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 75
+2023-06-08 13:51:59,982 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 75
+2023-06-08 13:51:59,982 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 27
+2023-06-08 13:51:59,983 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 36
+2023-06-08 13:52:00,245 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 76
+2023-06-08 13:52:00,245 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 76
+2023-06-08 13:52:00,245 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 28
+2023-06-08 13:52:00,247 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 37
+2023-06-08 13:52:00,487 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 77
+2023-06-08 13:52:00,487 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 77
+2023-06-08 13:52:00,487 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 38
+2023-06-08 13:52:00,740 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 78
+2023-06-08 13:52:00,740 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 78
+2023-06-08 13:52:00,740 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 29
+2023-06-08 13:52:00,741 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 39
+2023-06-08 13:52:00,968 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 79
+2023-06-08 13:52:00,968 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 79
+2023-06-08 13:52:01,227 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 80
+2023-06-08 13:52:01,228 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 80
+2023-06-08 13:52:01,484 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 81
+2023-06-08 13:52:01,485 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 81
+2023-06-08 13:52:01,485 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 40
+2023-06-08 13:52:01,485 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 30
+2023-06-08 13:52:01,737 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 82
+2023-06-08 13:52:01,737 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 82
+2023-06-08 13:52:01,991 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 83
+2023-06-08 13:52:01,991 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 83
+2023-06-08 13:52:01,991 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 41
+2023-06-08 13:52:02,218 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 84
+2023-06-08 13:52:02,218 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 84
+2023-06-08 13:52:02,485 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 85
+2023-06-08 13:52:02,485 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 85
+2023-06-08 13:52:02,752 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 86
+2023-06-08 13:52:02,753 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 86
+2023-06-08 13:52:02,753 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 31
+2023-06-08 13:52:02,753 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 42
+2023-06-08 13:52:02,976 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 87
+2023-06-08 13:52:02,976 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 87
+2023-06-08 13:52:02,976 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 43
+2023-06-08 13:52:03,229 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 88
+2023-06-08 13:52:03,229 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 88
+2023-06-08 13:52:03,483 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 89
+2023-06-08 13:52:03,483 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 89
+2023-06-08 13:52:03,743 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 90
+2023-06-08 13:52:03,743 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 90
+2023-06-08 13:52:03,743 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 32
+2023-06-08 13:52:03,743 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 44
+2023-06-08 13:52:03,972 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 91
+2023-06-08 13:52:03,973 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 91
+2023-06-08 13:52:04,230 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 92
+2023-06-08 13:52:04,230 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 92
+2023-06-08 13:52:04,230 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 45
+2023-06-08 13:52:04,496 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 93
+2023-06-08 13:52:04,497 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 93
+2023-06-08 13:52:04,497 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 46
+2023-06-08 13:52:04,497 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 47
+2023-06-08 13:52:04,740 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 94
+2023-06-08 13:52:04,741 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 94
+2023-06-08 13:52:04,741 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 33
+2023-06-08 13:52:04,979 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 95
+2023-06-08 13:52:04,979 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 95
+2023-06-08 13:52:05,240 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 96
+2023-06-08 13:52:05,241 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 96
+2023-06-08 13:52:05,241 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 34
+2023-06-08 13:52:05,469 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 97
+2023-06-08 13:52:05,469 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 97
+2023-06-08 13:52:05,469 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 35
+2023-06-08 13:52:05,739 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 98
+2023-06-08 13:52:05,740 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 98
+2023-06-08 13:52:05,740 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 48
+2023-06-08 13:52:05,977 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 99
+2023-06-08 13:52:05,978 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 99
+2023-06-08 13:52:05,978 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 36
+2023-06-08 13:52:05,982 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 37
+2023-06-08 13:52:05,982 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 49
+2023-06-08 13:52:06,226 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 100
+2023-06-08 13:52:06,226 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 100
+2023-06-08 13:52:06,227 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 50
+2023-06-08 13:52:06,481 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 101
+2023-06-08 13:52:06,481 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 101
+2023-06-08 13:52:06,730 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 102
+2023-06-08 13:52:06,730 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 102
+2023-06-08 13:52:06,974 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 103
+2023-06-08 13:52:06,974 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 103
+2023-06-08 13:52:07,225 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 104
+2023-06-08 13:52:07,226 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 104
+2023-06-08 13:52:07,227 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 51
+2023-06-08 13:52:07,481 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 105
+2023-06-08 13:52:07,481 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 105
+2023-06-08 13:52:07,482 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 52
+2023-06-08 13:52:07,731 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 106
+2023-06-08 13:52:07,731 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 106
+2023-06-08 13:52:07,732 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 53
+2023-06-08 13:52:07,982 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 107
+2023-06-08 13:52:07,982 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 107
+2023-06-08 13:52:08,239 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 108
+2023-06-08 13:52:08,239 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 108
+2023-06-08 13:52:08,479 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 109
+2023-06-08 13:52:08,480 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 109
+2023-06-08 13:52:08,729 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 110
+2023-06-08 13:52:08,730 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 110
+2023-06-08 13:52:08,730 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 54
+2023-06-08 13:52:08,730 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 38
+2023-06-08 13:52:08,981 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 111
+2023-06-08 13:52:08,981 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 111
+2023-06-08 13:52:09,237 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 112
+2023-06-08 13:52:09,237 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 112
+2023-06-08 13:52:09,487 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 113
+2023-06-08 13:52:09,487 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 113
+2023-06-08 13:52:09,487 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 55
+2023-06-08 13:52:09,726 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 114
+2023-06-08 13:52:09,726 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 114
+2023-06-08 13:52:09,987 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 115
+2023-06-08 13:52:09,987 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 115
+2023-06-08 13:52:10,234 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 116
+2023-06-08 13:52:10,235 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 116
+2023-06-08 13:52:10,489 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 117
+2023-06-08 13:52:10,489 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 117
+2023-06-08 13:52:10,489 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 56
+2023-06-08 13:52:10,489 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 39
+2023-06-08 13:52:10,722 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 118
+2023-06-08 13:52:10,722 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 118
+2023-06-08 13:52:10,978 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 119
+2023-06-08 13:52:10,978 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 119
+2023-06-08 13:52:11,225 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 120
+2023-06-08 13:52:11,225 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 120
+2023-06-08 13:52:11,225 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 40
+2023-06-08 13:52:11,477 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 121
+2023-06-08 13:52:11,477 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 121
+2023-06-08 13:52:11,723 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 122
+2023-06-08 13:52:11,724 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 122
+2023-06-08 13:52:11,962 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 123
+2023-06-08 13:52:11,962 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 123
+2023-06-08 13:52:11,962 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 57
+2023-06-08 13:52:12,220 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 124
+2023-06-08 13:52:12,220 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 124
+2023-06-08 13:52:12,221 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 41
+2023-06-08 13:52:12,493 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 125
+2023-06-08 13:52:12,493 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 125
+2023-06-08 13:52:12,493 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 42
+2023-06-08 13:52:12,494 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 58
+2023-06-08 13:52:12,733 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 126
+2023-06-08 13:52:12,733 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 126
+2023-06-08 13:52:12,733 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 43
+2023-06-08 13:52:12,983 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 127
+2023-06-08 13:52:12,983 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 127
+2023-06-08 13:52:13,224 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 128
+2023-06-08 13:52:13,224 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 128
+2023-06-08 13:52:13,463 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 129
+2023-06-08 13:52:13,463 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 129
+2023-06-08 13:52:13,717 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 130
+2023-06-08 13:52:13,717 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 130
+2023-06-08 13:52:13,972 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 131
+2023-06-08 13:52:13,972 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 131
+2023-06-08 13:52:13,972 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 44
+2023-06-08 13:52:14,229 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 132
+2023-06-08 13:52:14,229 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 132
+2023-06-08 13:52:14,474 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 133
+2023-06-08 13:52:14,475 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 133
+2023-06-08 13:52:14,475 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 45
+2023-06-08 13:52:14,719 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 134
+2023-06-08 13:52:14,719 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 134
+2023-06-08 13:52:14,980 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 135
+2023-06-08 13:52:14,980 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 135
+2023-06-08 13:52:15,233 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 136
+2023-06-08 13:52:15,233 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 136
+2023-06-08 13:52:15,482 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 137
+2023-06-08 13:52:15,482 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 137
+2023-06-08 13:52:15,734 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 138
+2023-06-08 13:52:15,735 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 138
+2023-06-08 13:52:15,735 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 59
+2023-06-08 13:52:15,735 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 60
+2023-06-08 13:52:15,992 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 139
+2023-06-08 13:52:15,992 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 139
+2023-06-08 13:52:15,993 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 46
+2023-06-08 13:52:15,994 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 61
+2023-06-08 13:52:16,225 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 140
+2023-06-08 13:52:16,225 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 140
+2023-06-08 13:52:16,227 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 62
+2023-06-08 13:52:16,479 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 141
+2023-06-08 13:52:16,479 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 141
+2023-06-08 13:52:16,480 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 47
+2023-06-08 13:52:16,480 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 63
+2023-06-08 13:52:16,738 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 142
+2023-06-08 13:52:16,738 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 142
+2023-06-08 13:52:16,738 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 48
+2023-06-08 13:52:16,738 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 64
+2023-06-08 13:52:16,986 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 143
+2023-06-08 13:52:16,986 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 143
+2023-06-08 13:52:17,241 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 144
+2023-06-08 13:52:17,241 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 144
+2023-06-08 13:52:17,478 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 145
+2023-06-08 13:52:17,478 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 145
+2023-06-08 13:52:17,478 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 65
+2023-06-08 13:52:17,731 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 146
+2023-06-08 13:52:17,731 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 146
+2023-06-08 13:52:17,980 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 147
+2023-06-08 13:52:17,980 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 147
+2023-06-08 13:52:17,980 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 66
+2023-06-08 13:52:18,218 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 148
+2023-06-08 13:52:18,218 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 148
+2023-06-08 13:52:18,484 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 149
+2023-06-08 13:52:18,485 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 149
+2023-06-08 13:52:18,726 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 150
+2023-06-08 13:52:18,726 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 150
+2023-06-08 13:52:18,979 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 151
+2023-06-08 13:52:18,979 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 151
+2023-06-08 13:52:19,234 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 152
+2023-06-08 13:52:19,234 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 152
+2023-06-08 13:52:19,234 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 67
+2023-06-08 13:52:19,484 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 153
+2023-06-08 13:52:19,484 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 153
+2023-06-08 13:52:19,737 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 154
+2023-06-08 13:52:19,737 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 154
+2023-06-08 13:52:19,737 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 68
+2023-06-08 13:52:19,998 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 155
+2023-06-08 13:52:19,998 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 155
+2023-06-08 13:52:19,998 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 49
+2023-06-08 13:52:19,999 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 69
+2023-06-08 13:52:20,224 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 156
+2023-06-08 13:52:20,225 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 156
+2023-06-08 13:52:20,225 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 70
+2023-06-08 13:52:20,481 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 157
+2023-06-08 13:52:20,482 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 157
+2023-06-08 13:52:20,727 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 158
+2023-06-08 13:52:20,727 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 158
+2023-06-08 13:55:37,377 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py}
+2023-06-08 13:55:37,377 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 13:55:37,386 [INFO   ] [CONNECTION] fd=376 connection established: peer=127.0.0.1:12345
+2023-06-08 13:55:42,163 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-08 13:55:42,163 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1
+2023-06-08 13:55:42,446 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 2
+2023-06-08 13:55:42,446 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2
+2023-06-08 13:55:42,446 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-06-08 13:55:42,676 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 3
+2023-06-08 13:55:42,676 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3
+2023-06-08 13:55:42,941 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 4
+2023-06-08 13:55:42,941 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4
+2023-06-08 13:55:43,200 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 5
+2023-06-08 13:55:43,201 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5
+2023-06-08 13:55:43,201 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-06-08 13:55:43,445 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 6
+2023-06-08 13:55:43,445 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6
+2023-06-08 13:55:43,687 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 7
+2023-06-08 13:55:43,687 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7
+2023-06-08 13:55:43,687 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-06-08 13:55:43,938 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 8
+2023-06-08 13:55:43,939 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8
+2023-06-08 13:55:44,212 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 9
+2023-06-08 13:55:44,212 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9
+2023-06-08 13:55:44,212 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-06-08 13:55:44,213 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-06-08 13:55:44,430 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 10
+2023-06-08 13:55:44,431 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10
+2023-06-08 13:55:44,431 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-06-08 13:55:44,692 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 11
+2023-06-08 13:55:44,692 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11
+2023-06-08 13:55:44,694 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-06-08 13:55:44,919 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 12
+2023-06-08 13:55:44,920 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12
+2023-06-08 13:55:44,920 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-06-08 13:55:45,202 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 13
+2023-06-08 13:55:45,202 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13
+2023-06-08 13:55:45,202 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-06-08 13:55:45,202 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-06-08 13:55:45,437 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 14
+2023-06-08 13:55:45,437 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14
+2023-06-08 13:55:45,437 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-06-08 13:55:45,696 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 15
+2023-06-08 13:55:45,696 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15
+2023-06-08 13:55:45,929 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 16
+2023-06-08 13:55:45,930 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16
+2023-06-08 13:55:46,187 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 17
+2023-06-08 13:55:46,187 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17
+2023-06-08 13:55:46,187 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-06-08 13:55:46,433 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 18
+2023-06-08 13:55:46,434 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18
+2023-06-08 13:55:46,434 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-06-08 13:55:46,434 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-06-08 13:55:46,434 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-06-08 13:55:46,685 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 19
+2023-06-08 13:55:46,685 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19
+2023-06-08 13:55:46,940 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 20
+2023-06-08 13:55:46,940 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20
+2023-06-08 13:55:46,941 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-06-08 13:55:47,199 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 21
+2023-06-08 13:55:47,199 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21
+2023-06-08 13:55:47,424 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 22
+2023-06-08 13:55:47,425 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22
+2023-06-08 13:55:47,425 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-06-08 13:55:47,425 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-06-08 13:55:47,425 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-06-08 13:55:47,699 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 23
+2023-06-08 13:55:47,700 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23
+2023-06-08 13:55:47,700 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-06-08 13:55:47,700 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-06-08 13:55:47,936 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 24
+2023-06-08 13:55:47,936 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24
+2023-06-08 13:55:47,936 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-06-08 13:55:48,197 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 25
+2023-06-08 13:55:48,197 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25
+2023-06-08 13:55:48,445 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 26
+2023-06-08 13:55:48,445 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26
+2023-06-08 13:55:48,446 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-06-08 13:55:48,679 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 27
+2023-06-08 13:55:48,679 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27
+2023-06-08 13:55:48,679 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-06-08 13:55:48,931 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 28
+2023-06-08 13:55:48,931 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28
+2023-06-08 13:55:49,181 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 29
+2023-06-08 13:55:49,181 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29
+2023-06-08 13:55:49,439 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 30
+2023-06-08 13:55:49,439 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30
+2023-06-08 13:55:49,695 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 31
+2023-06-08 13:55:49,695 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31
+2023-06-08 13:55:49,695 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-06-08 13:55:49,925 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 32
+2023-06-08 13:55:49,925 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32
+2023-06-08 13:55:49,926 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-06-08 13:55:50,172 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 33
+2023-06-08 13:55:50,172 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33
+2023-06-08 13:55:50,450 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 34
+2023-06-08 13:55:50,451 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34
+2023-06-08 13:55:50,451 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-06-08 13:55:50,682 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 35
+2023-06-08 13:55:50,683 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35
+2023-06-08 13:55:50,937 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 36
+2023-06-08 13:55:50,937 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36
+2023-06-08 13:55:51,193 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 37
+2023-06-08 13:55:51,193 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 37
+2023-06-08 13:55:51,430 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 38
+2023-06-08 13:55:51,430 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 38
+2023-06-08 13:55:51,431 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-06-08 13:55:51,690 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 39
+2023-06-08 13:55:51,691 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 39
+2023-06-08 13:55:51,691 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-06-08 13:55:51,949 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 40
+2023-06-08 13:55:51,949 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 40
+2023-06-08 13:55:52,173 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 41
+2023-06-08 13:55:52,173 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 41
+2023-06-08 13:55:52,173 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-06-08 13:55:52,429 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 42
+2023-06-08 13:55:52,429 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 42
+2023-06-08 13:55:52,690 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 43
+2023-06-08 13:55:52,690 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 43
+2023-06-08 13:55:52,690 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-06-08 13:55:52,944 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 44
+2023-06-08 13:55:52,944 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 44
+2023-06-08 13:55:53,174 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 45
+2023-06-08 13:55:53,174 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 45
+2023-06-08 13:55:53,431 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 46
+2023-06-08 13:55:53,431 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 46
+2023-06-08 13:55:53,684 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 47
+2023-06-08 13:55:53,685 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 47
+2023-06-08 13:55:53,685 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 19
+2023-06-08 13:55:53,933 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 48
+2023-06-08 13:55:53,933 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 48
+2023-06-08 13:55:54,185 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 49
+2023-06-08 13:55:54,185 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 49
+2023-06-08 13:55:54,441 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 50
+2023-06-08 13:55:54,441 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 50
+2023-06-08 13:55:54,696 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 51
+2023-06-08 13:55:54,696 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 51
+2023-06-08 13:55:54,930 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 52
+2023-06-08 13:55:54,930 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 52
+2023-06-08 13:55:54,930 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-06-08 13:55:55,187 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 53
+2023-06-08 13:55:55,188 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 53
+2023-06-08 13:55:55,188 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-06-08 13:55:55,188 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 20
+2023-06-08 13:55:55,188 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-06-08 13:55:55,432 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 54
+2023-06-08 13:55:55,432 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 54
+2023-06-08 13:55:55,432 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-06-08 13:55:55,681 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 55
+2023-06-08 13:55:55,682 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 55
+2023-06-08 13:55:55,927 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 56
+2023-06-08 13:55:55,927 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 56
+2023-06-08 13:55:56,180 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 57
+2023-06-08 13:55:56,180 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 57
+2023-06-08 13:55:56,181 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-06-08 13:55:56,433 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 58
+2023-06-08 13:55:56,433 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 58
+2023-06-08 13:55:56,682 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 59
+2023-06-08 13:55:56,682 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 59
+2023-06-08 13:55:56,924 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 60
+2023-06-08 13:55:56,924 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 60
+2023-06-08 13:55:57,195 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 61
+2023-06-08 13:55:57,196 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 61
+2023-06-08 13:55:57,432 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 62
+2023-06-08 13:55:57,433 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 62
+2023-06-08 13:55:57,433 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 21
+2023-06-08 13:55:57,433 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-06-08 13:55:57,682 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 63
+2023-06-08 13:55:57,682 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 63
+2023-06-08 13:55:57,682 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-06-08 13:55:57,682 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-06-08 13:55:57,935 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 64
+2023-06-08 13:55:57,936 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 64
+2023-06-08 13:55:57,936 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-06-08 13:55:58,194 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 65
+2023-06-08 13:55:58,195 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 65
+2023-06-08 13:55:58,195 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 22
+2023-06-08 13:55:58,196 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-06-08 14:15:32,543 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader.py}
+2023-06-08 14:15:32,554 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 14:15:32,554 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 14:15:32,618 [INFO   ] [CONNECTION] fd=824 connection established: peer=127.0.0.1:12345
+2023-06-08 14:15:32,618 [INFO   ] [CONNECTION] fd=936 connection established: peer=127.0.0.1:12345
+2023-06-08 14:15:32,634 [INFO   ] [CONNECTION] fd=936 connection lost
+2023-06-08 14:15:32,634 [INFO   ] [APP] closing event loop
+2023-06-08 14:15:32,634 [INFO   ] [RECEIVER] connection lost
+2023-06-08 14:15:37,256 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-08 14:15:37,256 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1
+2023-06-08 14:15:37,538 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 2
+2023-06-08 14:15:37,538 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2
+2023-06-08 14:15:37,539 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-06-08 14:15:37,771 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 3
+2023-06-08 14:15:37,771 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3
+2023-06-08 14:15:38,020 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 4
+2023-06-08 14:15:38,020 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4
+2023-06-08 14:15:38,281 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 5
+2023-06-08 14:15:38,281 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5
+2023-06-08 14:15:38,281 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-06-08 14:15:38,531 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 6
+2023-06-08 14:15:38,531 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6
+2023-06-08 14:15:38,786 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 7
+2023-06-08 14:15:38,786 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7
+2023-06-08 14:15:38,786 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-06-08 14:15:39,020 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 8
+2023-06-08 14:15:39,020 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8
+2023-06-08 14:15:39,300 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 9
+2023-06-08 14:15:39,301 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9
+2023-06-08 14:15:39,301 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-06-08 14:15:39,525 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 10
+2023-06-08 14:15:39,525 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10
+2023-06-08 14:15:39,525 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-06-08 14:15:39,787 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 11
+2023-06-08 14:15:39,788 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11
+2023-06-08 14:15:40,030 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 12
+2023-06-08 14:15:40,030 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12
+2023-06-08 14:15:40,030 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-06-08 14:15:40,299 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 13
+2023-06-08 14:15:40,299 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13
+2023-06-08 14:15:40,300 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-06-08 14:15:40,300 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-06-08 14:15:40,519 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 14
+2023-06-08 14:15:40,520 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14
+2023-06-08 14:15:40,796 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 15
+2023-06-08 14:15:40,796 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15
+2023-06-08 14:15:40,796 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-06-08 14:15:41,023 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 16
+2023-06-08 14:15:41,023 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16
+2023-06-08 14:15:41,024 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-06-08 14:15:41,281 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 17
+2023-06-08 14:15:41,282 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17
+2023-06-08 14:15:41,282 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-06-08 14:15:41,534 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 18
+2023-06-08 14:15:41,534 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18
+2023-06-08 14:15:41,535 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-06-08 14:15:41,535 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-06-08 14:15:41,788 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 19
+2023-06-08 14:15:41,788 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19
+2023-06-08 14:15:42,024 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 20
+2023-06-08 14:15:42,024 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20
+2023-06-08 14:15:42,025 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-06-08 14:15:42,288 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 21
+2023-06-08 14:15:42,288 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21
+2023-06-08 14:15:42,288 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-06-08 14:15:42,512 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 22
+2023-06-08 14:15:42,512 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22
+2023-06-08 14:15:42,512 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-06-08 14:15:42,512 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-06-08 14:15:42,513 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-06-08 14:15:42,785 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 23
+2023-06-08 14:15:42,785 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23
+2023-06-08 14:15:42,786 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-06-08 14:15:42,786 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-06-08 14:15:43,022 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 24
+2023-06-08 14:15:43,022 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24
+2023-06-08 14:15:43,022 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-06-08 14:15:43,289 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 25
+2023-06-08 14:15:43,289 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25
+2023-06-08 14:15:43,532 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 26
+2023-06-08 14:15:43,532 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26
+2023-06-08 14:15:43,532 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-06-08 14:15:43,782 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 27
+2023-06-08 14:15:43,782 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27
+2023-06-08 14:15:43,783 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-06-08 14:15:44,030 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 28
+2023-06-08 14:15:44,030 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28
+2023-06-08 14:15:44,283 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 29
+2023-06-08 14:15:44,283 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29
+2023-06-08 14:15:44,540 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 30
+2023-06-08 14:15:44,540 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30
+2023-06-08 14:15:44,779 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 31
+2023-06-08 14:15:44,779 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31
+2023-06-08 14:15:44,779 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-06-08 14:15:45,027 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 32
+2023-06-08 14:15:45,027 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32
+2023-06-08 14:15:45,028 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-06-08 14:15:45,278 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 33
+2023-06-08 14:15:45,278 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33
+2023-06-08 14:15:45,279 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-06-08 14:15:45,542 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 34
+2023-06-08 14:15:45,542 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34
+2023-06-08 14:15:45,542 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-06-08 14:15:45,770 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 35
+2023-06-08 14:15:45,770 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35
+2023-06-08 14:15:46,039 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 36
+2023-06-08 14:15:46,039 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36
+2023-06-08 14:15:46,277 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 37
+2023-06-08 14:15:46,277 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 37
+2023-06-08 14:15:46,532 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 38
+2023-06-08 14:15:46,532 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 38
+2023-06-08 14:15:46,533 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 17
+2023-06-08 14:15:46,789 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 39
+2023-06-08 14:15:46,789 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 39
+2023-06-08 14:15:46,789 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 18
+2023-06-08 14:16:02,258 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-08 14:16:02,259 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 14:16:02,260 [INFO   ] [CONNECTION] fd=524 connection established: peer=127.0.0.1:12345
+2023-06-08 14:16:07,049 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-08 14:16:07,049 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1
+2023-06-08 14:16:07,330 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 2
+2023-06-08 14:16:07,330 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2
+2023-06-08 14:16:07,331 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-06-08 14:16:07,564 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 3
+2023-06-08 14:16:07,564 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3
+2023-06-08 14:16:07,565 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-06-08 14:16:07,813 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 4
+2023-06-08 14:16:07,814 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4
+2023-06-08 14:16:08,081 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 5
+2023-06-08 14:16:08,081 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5
+2023-06-08 14:16:08,081 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-06-08 14:16:08,308 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 6
+2023-06-08 14:16:08,309 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6
+2023-06-08 14:16:08,310 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-06-08 14:16:08,565 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 7
+2023-06-08 14:16:08,565 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7
+2023-06-08 14:16:08,566 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-06-08 14:16:08,566 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-06-08 14:16:08,815 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 8
+2023-06-08 14:16:08,815 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8
+2023-06-08 14:16:09,084 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 9
+2023-06-08 14:16:09,084 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9
+2023-06-08 14:16:09,084 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-06-08 14:16:09,085 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-06-08 14:16:09,308 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 10
+2023-06-08 14:16:09,308 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10
+2023-06-08 14:16:09,308 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-06-08 14:16:09,570 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 11
+2023-06-08 14:16:09,570 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11
+2023-06-08 14:16:09,802 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 12
+2023-06-08 14:16:09,802 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12
+2023-06-08 14:16:09,802 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-06-08 14:16:09,805 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-06-08 14:16:10,068 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 13
+2023-06-08 14:16:10,068 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13
+2023-06-08 14:16:10,068 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-06-08 14:16:10,068 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-06-08 14:16:10,071 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-06-08 14:16:10,302 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 14
+2023-06-08 14:16:10,302 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14
+2023-06-08 14:16:10,306 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-06-08 14:16:10,565 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 15
+2023-06-08 14:16:10,566 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15
+2023-06-08 14:16:10,815 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 16
+2023-06-08 14:16:10,815 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16
+2023-06-08 14:16:10,815 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-06-08 14:16:11,074 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 17
+2023-06-08 14:16:11,074 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17
+2023-06-08 14:16:11,075 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-06-08 14:16:11,075 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-06-08 14:16:11,308 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 18
+2023-06-08 14:16:11,309 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18
+2023-06-08 14:16:11,309 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 14
+2023-06-08 14:16:11,309 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-06-08 14:16:11,309 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 15
+2023-06-08 14:16:11,561 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 19
+2023-06-08 14:16:11,561 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 19
+2023-06-08 14:16:11,562 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 16
+2023-06-08 14:16:11,814 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 20
+2023-06-08 14:16:11,814 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 20
+2023-06-08 14:16:11,815 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 17
+2023-06-08 14:16:12,079 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 21
+2023-06-08 14:16:12,079 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 21
+2023-06-08 14:16:12,081 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 18
+2023-06-08 14:16:12,308 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 22
+2023-06-08 14:16:12,308 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 22
+2023-06-08 14:16:12,309 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 9
+2023-06-08 14:16:12,309 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 19
+2023-06-08 14:16:12,309 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 20
+2023-06-08 14:16:12,309 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 21
+2023-06-08 14:16:12,569 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 23
+2023-06-08 14:16:12,570 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 23
+2023-06-08 14:16:12,570 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 10
+2023-06-08 14:16:12,807 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 24
+2023-06-08 14:16:12,807 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 24
+2023-06-08 14:16:12,808 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 22
+2023-06-08 14:16:13,068 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 25
+2023-06-08 14:16:13,068 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 25
+2023-06-08 14:16:13,070 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 23
+2023-06-08 14:16:13,306 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 26
+2023-06-08 14:16:13,306 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 26
+2023-06-08 14:16:13,306 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 11
+2023-06-08 14:16:13,552 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 27
+2023-06-08 14:16:13,552 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 27
+2023-06-08 14:16:13,553 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 12
+2023-06-08 14:16:13,554 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 24
+2023-06-08 14:16:13,806 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 28
+2023-06-08 14:16:13,807 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 28
+2023-06-08 14:16:14,058 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 29
+2023-06-08 14:16:14,058 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 29
+2023-06-08 14:16:14,321 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 30
+2023-06-08 14:16:14,322 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 30
+2023-06-08 14:16:14,323 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 25
+2023-06-08 14:16:14,569 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 31
+2023-06-08 14:16:14,569 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 31
+2023-06-08 14:16:14,570 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 13
+2023-06-08 14:16:14,570 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 26
+2023-06-08 14:16:14,802 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 32
+2023-06-08 14:16:14,802 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 32
+2023-06-08 14:16:14,803 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 14
+2023-06-08 14:16:14,803 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 27
+2023-06-08 14:16:15,052 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 33
+2023-06-08 14:16:15,052 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 33
+2023-06-08 14:16:15,054 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 15
+2023-06-08 14:16:15,314 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 34
+2023-06-08 14:16:15,314 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 34
+2023-06-08 14:16:15,315 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 16
+2023-06-08 14:16:15,562 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 35
+2023-06-08 14:16:15,562 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 35
+2023-06-08 14:16:15,812 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 36
+2023-06-08 14:16:15,813 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 36
+2023-06-08 14:16:46,619 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-08 14:16:46,619 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-08 14:16:46,629 [INFO   ] [CONNECTION] fd=808 connection established: peer=127.0.0.1:12345
+2023-06-08 14:16:51,451 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-08 14:16:51,451 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 1
+2023-06-08 14:16:51,740 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 2
+2023-06-08 14:16:51,740 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 2
+2023-06-08 14:16:51,741 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 2
+2023-06-08 14:16:51,955 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 3
+2023-06-08 14:16:51,955 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 3
+2023-06-08 14:16:51,956 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 2
+2023-06-08 14:16:52,218 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 4
+2023-06-08 14:16:52,218 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 4
+2023-06-08 14:16:52,482 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 5
+2023-06-08 14:16:52,482 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 5
+2023-06-08 14:16:52,483 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 3
+2023-06-08 14:16:52,723 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 6
+2023-06-08 14:16:52,723 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 6
+2023-06-08 14:16:52,962 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 7
+2023-06-08 14:16:52,963 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 7
+2023-06-08 14:16:52,963 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 3
+2023-06-08 14:16:52,964 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 4
+2023-06-08 14:16:53,213 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 8
+2023-06-08 14:16:53,213 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 8
+2023-06-08 14:16:53,479 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 9
+2023-06-08 14:16:53,480 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 9
+2023-06-08 14:16:53,480 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 4
+2023-06-08 14:16:53,721 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 10
+2023-06-08 14:16:53,721 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 10
+2023-06-08 14:16:53,722 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 5
+2023-06-08 14:16:53,988 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 11
+2023-06-08 14:16:53,989 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 11
+2023-06-08 14:16:53,991 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 6
+2023-06-08 14:16:54,209 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 12
+2023-06-08 14:16:54,209 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 12
+2023-06-08 14:16:54,210 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 7
+2023-06-08 14:16:54,211 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 8
+2023-06-08 14:16:54,484 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 13
+2023-06-08 14:16:54,484 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 13
+2023-06-08 14:16:54,484 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 9
+2023-06-08 14:16:54,484 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 5
+2023-06-08 14:16:54,488 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 10
+2023-06-08 14:16:54,718 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 14
+2023-06-08 14:16:54,719 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 14
+2023-06-08 14:16:54,719 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 6
+2023-06-08 14:16:54,975 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 15
+2023-06-08 14:16:54,975 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 15
+2023-06-08 14:16:54,977 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 11
+2023-06-08 14:16:55,207 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 16
+2023-06-08 14:16:55,208 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 16
+2023-06-08 14:16:55,210 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 12
+2023-06-08 14:16:55,466 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 17
+2023-06-08 14:16:55,467 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 17
+2023-06-08 14:16:55,467 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 7
+2023-06-08 14:16:55,717 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 18
+2023-06-08 14:16:55,717 [INFO   ] [TRADER] received order book for instrument 1 with sequence number 18
+2023-06-08 14:16:55,718 [INFO   ] [TRADER] received trade ticks for instrument 1 with sequence number 13
+2023-06-08 14:16:55,718 [INFO   ] [TRADER] received trade ticks for instrument 0 with sequence number 8
+2023-06-11 13:13:57,390 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:13:57,390 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:13:57,530 [INFO   ] [CONNECTION] fd=792 connection established: peer=127.0.0.1:12345
+2023-06-11 13:14:01,993 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:14:01,993 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:14:02,000 [INFO   ] [APP] closing event loop
+2023-06-11 13:14:02,001 [INFO   ] [CONNECTION] fd=792 connection lost
+2023-06-11 13:14:02,001 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:14:42,200 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:14:42,200 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:14:42,210 [INFO   ] [CONNECTION] fd=812 connection established: peer=127.0.0.1:12345
+2023-06-11 13:14:47,192 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:14:47,192 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:14:47,194 [INFO   ] [APP] closing event loop
+2023-06-11 13:14:47,194 [INFO   ] [CONNECTION] fd=812 connection lost
+2023-06-11 13:14:47,199 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:15:17,019 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:15:17,020 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:15:17,031 [INFO   ] [CONNECTION] fd=804 connection established: peer=127.0.0.1:12345
+2023-06-11 13:15:22,020 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:15:22,020 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 84, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:15:22,022 [INFO   ] [APP] closing event loop
+2023-06-11 13:15:22,022 [INFO   ] [CONNECTION] fd=804 connection lost
+2023-06-11 13:15:22,022 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:16:50,463 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:16:50,463 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:16:50,474 [INFO   ] [CONNECTION] fd=544 connection established: peer=127.0.0.1:12345
+2023-06-11 13:16:55,424 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:16:55,425 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 85, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:16:55,427 [INFO   ] [APP] closing event loop
+2023-06-11 13:16:55,427 [INFO   ] [CONNECTION] fd=544 connection lost
+2023-06-11 13:16:55,427 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:17:39,705 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:17:39,705 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:17:39,707 [INFO   ] [CONNECTION] fd=920 connection established: peer=127.0.0.1:12345
+2023-06-11 13:17:44,688 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:17:44,689 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 85, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:17:44,690 [INFO   ] [APP] closing event loop
+2023-06-11 13:17:44,691 [INFO   ] [CONNECTION] fd=920 connection lost
+2023-06-11 13:17:44,691 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:20:23,211 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:20:23,211 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:20:23,221 [INFO   ] [CONNECTION] fd=580 connection established: peer=127.0.0.1:12345
+2023-06-11 13:20:28,196 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:20:28,196 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:20:28,198 [INFO   ] [APP] closing event loop
+2023-06-11 13:20:28,198 [INFO   ] [CONNECTION] fd=580 connection lost
+2023-06-11 13:20:28,198 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:26:06,882 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:26:06,882 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:26:45,930 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:26:45,930 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Example","Secret":"secret"}
+2023-06-11 13:26:45,932 [INFO   ] [CONNECTION] fd=676 connection established: peer=127.0.0.1:12345
+2023-06-11 13:26:45,939 [INFO   ] [CONNECTION] fd=676 connection lost
+2023-06-11 13:26:45,939 [INFO   ] [APP] closing event loop
+2023-06-11 13:26:45,939 [INFO   ] [RECEIVER] connection lost
+2023-06-11 13:28:33,720 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:28:33,720 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:28:33,722 [INFO   ] [CONNECTION] fd=668 connection established: peer=127.0.0.1:12345
+2023-06-11 13:28:38,747 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:28:38,747 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:28:38,776 [INFO   ] [APP] closing event loop
+2023-06-11 13:28:38,776 [INFO   ] [CONNECTION] fd=668 connection lost
+2023-06-11 13:28:38,776 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:29:49,917 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:29:49,917 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:29:49,929 [INFO   ] [CONNECTION] fd=852 connection established: peer=127.0.0.1:12345
+2023-06-11 13:29:54,932 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:29:54,932 [INFO   ] [TRADER] (0, 0, 0, 0, 0)
+2023-06-11 13:29:54,932 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 84, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:29:54,934 [INFO   ] [APP] closing event loop
+2023-06-11 13:29:54,934 [INFO   ] [CONNECTION] fd=852 connection lost
+2023-06-11 13:29:54,934 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:30:35,632 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:30:35,632 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:30:35,634 [INFO   ] [CONNECTION] fd=940 connection established: peer=127.0.0.1:12345
+2023-06-11 13:30:40,611 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:30:40,611 [INFO   ] [TRADER] (0, 0, 0, 0, 0)
+2023-06-11 13:30:40,611 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 84, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:30:40,613 [INFO   ] [APP] closing event loop
+2023-06-11 13:30:40,613 [INFO   ] [CONNECTION] fd=940 connection lost
+2023-06-11 13:30:40,613 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:31:32,779 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:31:32,780 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:31:32,790 [INFO   ] [CONNECTION] fd=824 connection established: peer=127.0.0.1:12345
+2023-06-11 13:31:37,771 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:31:37,771 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 84, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:31:37,773 [INFO   ] [APP] closing event loop
+2023-06-11 13:31:37,773 [INFO   ] [CONNECTION] fd=824 connection lost
+2023-06-11 13:31:37,773 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:32:13,215 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:32:13,216 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:32:13,226 [INFO   ] [CONNECTION] fd=928 connection established: peer=127.0.0.1:12345
+2023-06-11 13:32:18,195 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:32:18,195 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:32:18,197 [INFO   ] [APP] closing event loop
+2023-06-11 13:32:18,197 [INFO   ] [CONNECTION] fd=928 connection lost
+2023-06-11 13:32:18,197 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:32:59,808 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:32:59,808 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:32:59,810 [INFO   ] [CONNECTION] fd=756 connection established: peer=127.0.0.1:12345
+2023-06-11 13:33:04,785 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:33:04,785 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:33:04,787 [INFO   ] [APP] closing event loop
+2023-06-11 13:33:04,787 [INFO   ] [CONNECTION] fd=756 connection lost
+2023-06-11 13:33:04,787 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:33:28,050 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:33:28,051 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:33:28,052 [INFO   ] [CONNECTION] fd=396 connection established: peer=127.0.0.1:12345
+2023-06-11 13:33:33,066 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:33:33,066 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:33:33,068 [INFO   ] [APP] closing event loop
+2023-06-11 13:33:33,068 [INFO   ] [CONNECTION] fd=396 connection lost
+2023-06-11 13:33:33,068 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:37:24,961 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:37:24,961 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:37:24,964 [INFO   ] [CONNECTION] fd=1004 connection established: peer=127.0.0.1:12345
+2023-06-11 13:37:29,988 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:37:29,988 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:37:29,990 [INFO   ] [APP] closing event loop
+2023-06-11 13:37:29,990 [INFO   ] [CONNECTION] fd=1004 connection lost
+2023-06-11 13:37:29,990 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+2023-06-11 13:37:44,743 [INFO   ] [APP] autotrader started with arguments={rtg.py, run, autotrader.py, autotrader2.py}
+2023-06-11 13:37:44,743 [INFO   ] [APP] configuration={"Execution":{"Host":"127.0.0.1","Port":12345},"Information":{"Type":"mmap","Name":"info.dat"},"TeamName":"Autotrader 1","Secret":"secret"}
+2023-06-11 13:37:44,746 [INFO   ] [CONNECTION] fd=772 connection established: peer=127.0.0.1:12345
+2023-06-11 13:37:49,720 [INFO   ] [TRADER] received order book for instrument 0 with sequence number 1
+2023-06-11 13:37:49,720 [ERROR  ] [RECEIVER] connection lost:
+Traceback (most recent call last):
+  File "D:\harry\m4r\market-simulation\ready_trader_go\pubsub.py", line 136, in _subscribe_worker
+    protocol.datagram_received(buffer[start:start + length], from_addr)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 206, in datagram_received
+    self.on_datagram(typ, data, HEADER_SIZE, length)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 68, in on_datagram
+    self.on_order_book_update_message(inst, seq, *BOOK_PART.iter_unpack(data[ORDER_BOOK_HEADER_SIZE:]))
+  File "D:\harry\m4r\market-simulation\autotrader.py", line 83, in on_order_book_update_message
+    pAAi = pAA[self.previous_round]
+TypeError: list indices must be integers or slices, not NoneType
+2023-06-11 13:37:49,722 [INFO   ] [APP] closing event loop
+2023-06-11 13:37:49,722 [INFO   ] [CONNECTION] fd=772 connection lost
+2023-06-11 13:37:49,722 [ERROR  ] [asyncio] Exception in callback _SelectorSocketTransport._call_connection_lost(None)
+handle: <Handle _SelectorSocketTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "D:\harry\.conda\envs\ms\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 976, in _call_connection_lost
+    super()._call_connection_lost(exc)
+  File "D:\harry\.conda\envs\ms\lib\asyncio\selector_events.py", line 734, in _call_connection_lost
+    self._protocol.connection_lost(exc)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\base_auto_trader.py", line 58, in connection_lost
+    Subscription.close(self)
+  File "D:\harry\m4r\market-simulation\ready_trader_go\messages.py", line 180, in close
+    self._receiver_transport.close()
+AttributeError: 'NoneType' object has no attribute 'close'

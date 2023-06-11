@@ -19,14 +19,16 @@ import asyncio
 import itertools
 
 from typing import List
-from math import ceil, floor
 
-from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, Side
+from ready_trader_go import BaseAutoTrader, Instrument, Lifespan, Side, Action
 
 
-LOT_SIZE = 100
+LOT_SIZE = 10
 POSITION_LIMIT = 1000
 TICK_SIZE_IN_CENTS = 1
+
+pAA = [0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33]
+pAB = [0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33]
 
 
 class AutoTrader(BaseAutoTrader):
@@ -46,8 +48,9 @@ class AutoTrader(BaseAutoTrader):
         self.bids = set()
         self.asks = set()
         self.ask_id = self.ask_price = self.bid_id = self.bid_price = self.position = 0
-        self.theo = None
-        self.offset = 0.8 * TICK_SIZE_IN_CENTS
+        self.previous_action = None
+        self.previous_round = None
+        self.orders_submitted_previous_round = None
 
     def on_error_message(self, client_order_id: int, error_message: bytes) -> None:
         """Called when the exchange detects an error.
@@ -71,10 +74,13 @@ class AutoTrader(BaseAutoTrader):
         self.logger.info("received order book for instrument %d with sequence number %d", instrument,
                          sequence_number)
         if instrument == Instrument.FUTURE:
-            theo_offset = - (self.position // POSITION_LIMIT) * self.offset
-            vwap = (sum(price * vol for price, vol in zip(ask_prices, ask_volumes)) + sum(price * vol for price, vol in zip(bid_prices, bid_volumes))) / (sum(ask_volumes) + sum(bid_volumes))
-            new_bid_price = floor(vwap + theo_offset - self.offset) if bid_prices[0] != 0 else 0
-            new_ask_price = ceil(vwap + theo_offset + self.offset) if ask_prices[0] != 0 else 0
+            if bid_prices[0] + TICK_SIZE_IN_CENTS == ask_prices[0]:
+                new_bid_price = bid_prices[0]
+                new_ask_price = ask_prices[0]
+            else:
+                midpoint_price = (bid_prices[0] + ask_prices[0]) // 2
+                new_bid_price = midpoint_price - TICK_SIZE_IN_CENTS if bid_prices[0] != 0 else 0
+                new_ask_price = midpoint_price if ask_prices[0] != 0 else 0
 
             if self.bid_id != 0 and new_bid_price not in (self.bid_price, 0):
                 self.send_cancel_order(self.bid_id)
@@ -94,6 +100,9 @@ class AutoTrader(BaseAutoTrader):
                 self.ask_price = new_ask_price
                 self.send_insert_order(self.ask_id, Side.SELL, new_ask_price, LOT_SIZE, Lifespan.GOOD_FOR_DAY)
                 self.asks.add(self.ask_id)
+        else:
+            print(bid_prices, ask_prices)
+            print(bid_volumes, ask_volumes)
 
     def on_order_filled_message(self, client_order_id: int, price: int, volume: int) -> None:
         """Called when when of your orders is filled, partially or fully.
@@ -129,9 +138,10 @@ class AutoTrader(BaseAutoTrader):
             self.asks.discard(client_order_id)
         
         if fees > 0:
-            self.offset *= 1.1
-        elif fees < 0:
-            self.offset *= 0.9
+            if self.previous_action == Action.AA:
+                self.previous_round = 1
+            elif self.previous_action == Action.AB:
+                self.previous_round = 0
 
     def on_trade_ticks_message(self, instrument: int, sequence_number: int, ask_prices: List[int],
                                ask_volumes: List[int], bid_prices: List[int], bid_volumes: List[int]) -> None:

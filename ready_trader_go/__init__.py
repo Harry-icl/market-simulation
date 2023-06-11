@@ -15,8 +15,8 @@
 #     You should have received a copy of the GNU Affero General Public
 #     License along with Ready Trader Go.  If not, see
 #     <https://www.gnu.org/licenses/>.
-__all__ = ["BaseAutoTrader", "Instrument", "Lifespan", "Side"]
+__all__ = ["BaseAutoTrader", "Instrument", "Lifespan", "Side", "Action"]
 
 from .application import Application
 from .base_auto_trader import BaseAutoTrader
-from .types import Instrument, Lifespan, Side
+from .types import Instrument, Lifespan, Side, Action
