@@ -1,6 +1,6 @@
 {
   "Engine": {
-    "MarketDataFile": "data/market_data.csv",
+    "MarketDataFile": "market_data.csv",
     "MarketOpenDelay": 5.0,
     "MatchEventsFile": "match_events.csv",
     "ScoreBoardFile": "score_board.csv",
@@ -29,14 +29,17 @@
   },
   "Limits": {
     "ActiveOrderCountLimit": 10,
-    "ActiveVolumeLimit": 200,
+    "ActiveVolumeLimit": 2000,
     "MessageFrequencyInterval": 1.0,
     "MessageFrequencyLimit": 50,
-    "PositionLimit": 1000
+    "PositionLimit": 1000000
   },
   "Traders": {
     "Autotrader 1": "secret",
     "Autotrader 2": "secret",
-    "Autotrader 3": "secret"
+    "Autotrader 3": "secret",
+    "Random player": "secret",
+    "Fixer 2.5": "secret",
+    "Extorter": "secret"
   }
 }
