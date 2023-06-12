@@ -849,3 +849,105 @@ KeyError: 0
 2023-06-11 20:02:32,916 [INFO   ] [SCORE_BOARD] writer thread complete after processing 4802 score records
 2023-06-11 20:02:32,917 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 34992 match events
 2023-06-11 20:02:32,917 [INFO   ] [APP] closing event loop
+2023-06-12 11:47:05,013 [INFO   ] [APP] exchange started with arguments={rtg.py, run, extorter_autotrader.py, random_autotrader.py}
+2023-06-12 11:47:05,013 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"market_data.csv","MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.02,"Taker":0.04},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":0.01},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":2000,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":1000000},"Traders":{"Autotrader 1":"secret","Autotrader 2":"secret","Autotrader 3":"secret","Random player":"secret","Fixer 2.5":"secret","Extorter":"secret"}}
+2023-06-12 11:47:05,014 [INFO   ] [CONTROLLER] starting the match
+2023-06-12 11:47:05,014 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-06-12 11:47:05,014 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-06-12 11:47:05,018 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-06-12 11:47:05,019 [INFO   ] [INFORMATION] information channel established
+2023-06-12 11:47:05,603 [INFO   ] [CONNECTION] fd=392 connection established: peer=127.0.0.1:51880
+2023-06-12 11:47:05,603 [INFO   ] [EXECUTION] fd=392 'Extorter' is ready!
+2023-06-12 11:47:05,617 [INFO   ] [CONNECTION] fd=664 connection established: peer=127.0.0.1:51883
+2023-06-12 11:47:05,618 [INFO   ] [EXECUTION] fd=664 'Random player' is ready!
+2023-06-12 11:47:08,135 [INFO   ] [CONNECTION] fd=604 connection established: peer=127.0.0.1:51884
+2023-06-12 11:47:10,050 [INFO   ] [CONTROLLER] market open
+2023-06-12 11:47:10,050 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,050 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,050 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,051 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,302 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,303 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,303 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:10,303 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:48,980 [INFO   ] [APP] exchange started with arguments={rtg.py, run, random_autotrader.py, extorter_autotrader.py}
+2023-06-12 11:47:48,980 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"market_data.csv","MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.02,"Taker":0.04},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":0.01},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":2000,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":1000000},"Traders":{"Autotrader 1":"secret","Autotrader 2":"secret","Autotrader 3":"secret","Random player":"secret","Fixer 2.5":"secret","Extorter":"secret"}}
+2023-06-12 11:47:48,980 [INFO   ] [CONTROLLER] starting the match
+2023-06-12 11:47:48,981 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-06-12 11:47:48,981 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-06-12 11:47:48,981 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-06-12 11:47:48,981 [INFO   ] [INFORMATION] information channel established
+2023-06-12 11:47:49,062 [INFO   ] [CONNECTION] fd=976 connection established: peer=127.0.0.1:51911
+2023-06-12 11:47:49,062 [INFO   ] [CONNECTION] fd=980 connection established: peer=127.0.0.1:51912
+2023-06-12 11:47:49,062 [INFO   ] [EXECUTION] fd=976 'Extorter' is ready!
+2023-06-12 11:47:49,062 [INFO   ] [EXECUTION] fd=980 'Random player' is ready!
+2023-06-12 11:47:50,519 [INFO   ] [CONNECTION] fd=984 connection established: peer=127.0.0.1:51913
+2023-06-12 11:47:53,994 [INFO   ] [CONTROLLER] market open
+2023-06-12 11:47:53,994 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:53,994 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:53,994 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:53,995 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:54,249 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:54,250 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:54,250 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:47:54,250 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 11:56:49,989 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 9602 market events
+2023-06-12 11:57:53,987 [INFO   ] [TIMER] shutting down the match: time=600.000000 reason='match complete'
+2023-06-12 11:57:53,987 [INFO   ] [COMPETITOR] 'Extorter' closing execution channel at time=600.000000
+2023-06-12 11:57:53,987 [INFO   ] [COMPETITOR] 'Random player' closing execution channel at time=600.000000
+2023-06-12 11:57:53,987 [INFO   ] [CONNECTION] fd=976 connection lost
+2023-06-12 11:57:53,988 [INFO   ] [CONNECTION] fd=980 connection lost
+2023-06-12 11:57:53,988 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 35192 match events
+2023-06-12 11:57:53,988 [INFO   ] [SCORE_BOARD] writer thread complete after processing 4802 score records
+2023-06-12 11:57:53,988 [INFO   ] [APP] closing event loop
+2023-06-12 13:12:21,064 [INFO   ] [APP] exchange started with arguments={rtg.py, run, random_autotrader.py, extorter_autotrader.py}
+2023-06-12 13:12:21,064 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"market_data.csv","MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.02,"Taker":0.04},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":0.01},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":2000,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":1000000},"Traders":{"Autotrader 1":"secret","Autotrader 2":"secret","Autotrader 3":"secret","Random player":"secret","Fixer 2.5":"secret","Extorter":"secret"}}
+2023-06-12 13:12:21,064 [INFO   ] [CONTROLLER] starting the match
+2023-06-12 13:12:21,064 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-06-12 13:12:21,065 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-06-12 13:12:21,070 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-06-12 13:12:21,070 [INFO   ] [INFORMATION] information channel established
+2023-06-12 13:12:21,235 [INFO   ] [CONNECTION] fd=924 connection established: peer=127.0.0.1:54316
+2023-06-12 13:12:21,235 [INFO   ] [EXECUTION] fd=924 'Random player' is ready!
+2023-06-12 13:12:21,244 [INFO   ] [CONNECTION] fd=936 connection established: peer=127.0.0.1:54317
+2023-06-12 13:12:21,244 [INFO   ] [EXECUTION] fd=936 'Extorter' is ready!
+2023-06-12 13:12:22,889 [INFO   ] [CONNECTION] fd=940 connection established: peer=127.0.0.1:54319
+2023-06-12 13:12:26,103 [INFO   ] [CONTROLLER] market open
+2023-06-12 13:12:26,103 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,103 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,103 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,104 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,356 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,356 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,356 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:12:26,356 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:09,318 [INFO   ] [APP] exchange started with arguments={rtg.py, run, random_autotrader.py, extorter_autotrader.py}
+2023-06-12 13:14:09,318 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"market_data.csv","MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.02,"Taker":0.04},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":0.01},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":2000,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":1000000},"Traders":{"Autotrader 1":"secret","Autotrader 2":"secret","Autotrader 3":"secret","Random player":"secret","Fixer 2.5":"secret","Extorter":"secret"}}
+2023-06-12 13:14:09,319 [INFO   ] [CONTROLLER] starting the match
+2023-06-12 13:14:09,319 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-06-12 13:14:09,319 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-06-12 13:14:09,319 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-06-12 13:14:09,319 [INFO   ] [INFORMATION] information channel established
+2023-06-12 13:14:09,355 [INFO   ] [CONNECTION] fd=948 connection established: peer=127.0.0.1:54438
+2023-06-12 13:14:09,355 [INFO   ] [EXECUTION] fd=948 'Extorter' is ready!
+2023-06-12 13:14:09,364 [INFO   ] [CONNECTION] fd=824 connection established: peer=127.0.0.1:54439
+2023-06-12 13:14:09,364 [INFO   ] [EXECUTION] fd=824 'Random player' is ready!
+2023-06-12 13:14:10,801 [INFO   ] [CONNECTION] fd=960 connection established: peer=127.0.0.1:54440
+2023-06-12 13:14:14,335 [INFO   ] [CONTROLLER] market open
+2023-06-12 13:14:14,335 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,335 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,335 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,336 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.000000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,588 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,589 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,589 [INFO   ] [COMPETITOR] 'Random player' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:14:14,589 [INFO   ] [COMPETITOR] 'Extorter' sent error message: time=0.250000 client_order_id=0 message='out-of-order client_order_id in cancel message'
+2023-06-12 13:23:10,335 [INFO   ] [MARKET_EVENTS] reader thread complete after processing 9602 market events
+2023-06-12 13:24:14,349 [INFO   ] [TIMER] shutting down the match: time=600.015000 reason='match complete'
+2023-06-12 13:24:14,349 [INFO   ] [COMPETITOR] 'Extorter' closing execution channel at time=600.015000
+2023-06-12 13:24:14,349 [INFO   ] [COMPETITOR] 'Random player' closing execution channel at time=600.015000
+2023-06-12 13:24:14,349 [INFO   ] [CONNECTION] fd=948 connection lost
+2023-06-12 13:24:14,350 [INFO   ] [CONNECTION] fd=824 connection lost
+2023-06-12 13:24:14,350 [INFO   ] [SCORE_BOARD] writer thread complete after processing 4802 score records
+2023-06-12 13:24:14,350 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 34972 match events
+2023-06-12 13:24:14,350 [INFO   ] [APP] closing event loop
